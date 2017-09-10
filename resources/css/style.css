@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 0;
+}
+
+.navbar>li>a {
+  position: relative;
+  display: block;
+  padding: 15px 15px;
+}
+
+.navbar>li>a:hover {
+  text-decoration: none;
+}
+
+.navbar>li>a.active, .navbar>li>a.active:hover {
+  color: #399bd1;
+}
