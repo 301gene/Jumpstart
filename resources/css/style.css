@@ -89,6 +89,7 @@ h3 {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   padding: 11.85rem 0;
+  height: 44rem;
 }
 
 .jumbotron h1 {
@@ -105,6 +106,25 @@ h3 {
   background-image: url("../images/jumbotron-bike.jpg");
 }
 
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
+
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+
+.relative-wrapper {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
   .jumbotron {
     padding-top: 23.7rem;
@@ -116,6 +136,10 @@ h3 {
 }
 
 /* Featured Project Section */
+
+.featured-project {
+  margin-top: -7rem;
+}
 
 .featured-project h2 {
   margin-bottom: 20px;
